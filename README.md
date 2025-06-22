@@ -27,25 +27,7 @@ Sub-Web-Modify 是基于 [CareyWang/sub-web](https://github.com/CareyWang/sub-we
 
 ## 🚀 快速部署
 
-### 方式一：Cloudflare Pages 部署（推荐）
-
-1. **Fork 本仓库** 到你的 GitHub 账户
-2. **修改配置文件**：
-   - 编辑 `src\views\Subconverter.vue` - 配置默认后端地址
-   - 编辑 `.env` - 设置环境变量
-3. **连接到 Cloudflare Pages**：
-   - 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
-   - 进入 Pages → 创建项目 → 连接到 Git
-   - 选择你 Fork 的仓库
-4. **配置构建设置**：
-   ```
-   框架预设：Vue
-   构建命令：npm run build
-   构建输出目录：/dist
-   ```
-5. **部署完成** - 自动部署，每次推送代码都会自动更新
-
-### 方式二：EdgeOne Pages 部署
+### EdgeOne Pages 部署（推荐）
 
 1. **Fork 本仓库** 到你的 GitHub 账户
 2. **修改配置文件**（同上）
@@ -120,66 +102,3 @@ VUE_APP_MYURLS_DEFAULT_BACKEND=https://your-short-url-service.com
 - 感谢 [CareyWang/sub-web](https://github.com/CareyWang/sub-web) 提供的原始项目基础
 - 感谢所有贡献者的辛勤付出
 
----
-
-<div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/youshandefeiyang">youshandefeiyang</a></p>
-</div>
-</div>
-- **动画效果** - 流畅的交互动画和视觉效果
-- **多语言支持** - 界面本地化支持
-
-## 🔄 更新日志
-
-### v1.0.0 (Latest)
-- ✨ 全新的界面设计和用户体验
-- 🌓 新增暗色主题支持
-- 📱 优化移动端适配
-- 🔧 新增多项高级配置选项
-- 🐛 修复已知问题和性能优化
-
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request 来帮助改进项目！
-
-### 开发环境搭建
-
-1. Fork 本仓库
-2. 克隆到本地：`git clone https://github.com/your-username/sub-web-modify.git`
-3. 安装依赖：`npm install`
-4. 启动开发服务器：`npm run serve`
-5. 进行修改并测试
-6. 提交 Pull Request
-
-### 代码规范
-
-- 使用 ES6+ 语法
-- 遵循 Vue.js 官方风格指南
-- 提交前请运行测试确保代码质量
-
-## 📞 支持与反馈
-
-- 🐛 **Bug 报告**：[Issues](https://github.com/youshandefeiyang/sub-web-modify/issues)
-- 💡 **功能建议**：[Issues](https://github.com/youshandefeiyang/sub-web-modify/issues)
-- 📧 **邮件联系**：your-email@example.com
-- 💬 **Telegram 群组**：[点击加入](https://t.me/your_group)
-
-## 📄 许可证
-
-本项目基于 [MIT License](LICENSE) 开源协议。
-
-## 🙏 致谢
-
-- 感谢 [CareyWang/sub-web](https://github.com/CareyWang/sub-web) 提供的原始项目基础
-- 感谢所有贡献者的辛勤付出
-- 感谢开源社区的支持
-
-## ⭐ Star History
-
-如果这个项目对你有帮助，请给个 Star ⭐
-
----
-
-<div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/youshandefeiyang">youshandefeiyang</a></p>
-</div>
