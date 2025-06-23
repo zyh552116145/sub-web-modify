@@ -788,7 +788,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
+        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
