@@ -48,7 +48,9 @@ Sub-Web-Modify 是基于 [CareyWang/sub-web](https://github.com/CareyWang/sub-we
 ### 方式二：EdgeOne Pages 部署
 
 1. **Fork 本仓库** 到你的 GitHub 账户
-2. **修改配置文件**（同上）
+2. **修改配置文件**：
+   - 编辑 `src\views\Subconverter.vue` - 配置默认后端地址
+   - 编辑 `.env` - 设置环境变量
 3. **连接到 EdgeOne Pages**：
    - 登录 [EdgeOne 控制台](https://console.cloud.tencent.com/edgeone)
    - 进入 Pages → 新建项目 → 连接 Git 仓库

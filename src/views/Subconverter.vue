@@ -222,8 +222,8 @@
           </el-link>
           <el-form label-position="left">
             <el-form-item prop="uploadConfig">
-              <el-input v-model="uploadConfig" type="textarea" :autosize="{ minRows: 15, maxRows: 15 }" maxlength="50000"
-                show-word-limit></el-input>
+              <el-input v-model="uploadConfig" type="textarea" :autosize="{ minRows: 15, maxRows: 15 }"
+                maxlength="50000" show-word-limit></el-input>
             </el-form-item>
           </el-form>
           <div style="float: right">
@@ -356,6 +356,39 @@ export default {
           { value: "https://api.wcc.best" },
         ],
         remoteConfig: [
+          {
+            label: "CM规则",
+            options: [
+              {
+                label: "CM_Online 默认版 识别港美地区(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
+              },
+              {
+                label: "CM_Online_MultiCountry 识别港美地区 负载均衡(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini"
+              },
+              {
+                label: "CM_Online_MultiCountry_CF 识别港美地区、CloudFlareCDN 负载均衡 Worker节点专用(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry_CF.ini"
+              },
+              {
+                label: "CM_Online_Full 识别多地区分组(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full.ini"
+              },
+              {
+                label: "CM_Online_Full_CF 识别多地区、CloudFlareCDN 分组 Worker节点专用(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_CF.ini"
+              },
+              {
+                label: "CM_Online_Full_MultiMode 识别多地区 负载均衡(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
+              },
+              {
+                label: "CM_Online_Full_MultiMode_CF 识别多地区、CloudFlareCDN 负载均衡 Worker节点专用(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode_CF.ini"
+              }
+            ]
+          },
           {
             label: "通用",
             options: [
